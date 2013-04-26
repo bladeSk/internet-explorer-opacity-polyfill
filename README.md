@@ -13,6 +13,6 @@ Include the script in your header, optionally with the IE conditional tag.
 
 	<!--[if lte IE 8]><script src="jquery.ie-opacity-polyfill.js"></script><![endif]-->
 
-Now you can happily use `opacity` in CSS without the silly `filter` syntax.
+Now you can happily use `opacity` in your CSS files without the silly `filter` syntax.
 
 	a.transparentLink { opacity: 0.5; }
