@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IE opacity polyfill demo</title>
+	
+	<!--[if lte IE 8]><script src="ie-opacity-polyfill.js"></script><![endif]-->
+
+	<style type="text/css">
+	body { font-family: sans-serif; }
+	.square { float: left; width: 90px; height: 90px; padding: 5px; margin: 25px; background: #000; color: #fff; }
+	.square.opacity75 { opacity: .75; }
+	.square.opacity50 { opacity: .5; }
+	.square.opacity25 { opacity: .25; }
+	</style>
+
+</head>
+<body>
+
+	<div class="square">Opacity: 100%</div>
+	<div class="square opacity75">Opacity: 75%</div>
+	<div class="square opacity50">Opacity: 50%</div>
+	<div class="square opacity25">Opacity: 25%</div>
+
+</body>
+</html>
